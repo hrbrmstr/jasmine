@@ -7,7 +7,7 @@
 get_keys(js)
 }
 \arguments{
-\item{js}{length 1 character vector (the JSON string)}
+\item{js}{length 1 character vector (the YUGE JSON string)}
 }
 \description{
 More info to hack at \url{http://zserge.com/jsmn.html}

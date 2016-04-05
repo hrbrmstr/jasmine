@@ -5,7 +5,7 @@
 #'
 #' More info to hack at \url{http://zserge.com/jsmn.html}
 #'
-#' @param js length 1 character vector (the JSON string)
+#' @param js length 1 character vector (the YUGE JSON string)
 #' @export
 #' @examples
 #' get_keys('{ "dave" : "me", "henry" : 4, "steve" : [ "a", "b", "c" ]}')
