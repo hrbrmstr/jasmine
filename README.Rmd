@@ -14,12 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-[![Build Status](https://travis-ci.org/hrbrmstr/jasmine.svg)](https://travis-ci.org/hrbrmstr/jasmine) 
-![Project Status: Concept - Minimal or no implementation has been done yet.](http://www.repostatus.org/badges/0.1.0/concept.svg)](http://www.repostatus.org/#concept)
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/jasmine)](http://cran.r-project.org/web/packages/jasmine) 
-![downloads](http://cranlogs.r-pkg.org/badges/grand-total/jasmine)
-
-jasmine is ...
+`jasmine` is a simple JSON parser
 
 The following functions are implemented:
 
@@ -27,7 +22,7 @@ The following data sets are included:
 
 ### News
 
-- Version  released
+- Version 0.1.0.9000 released
 
 ### Installation
 
@@ -47,6 +42,7 @@ library(jasmine)
 # current verison
 packageVersion("jasmine")
 
+get_keys('{ "dave" : "me", "henry" : 4, "steve" : [ "a", "b", "c" ]}')
 ```
 
 ### Test Results
